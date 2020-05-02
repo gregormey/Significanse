@@ -1,5 +1,3 @@
-# Significanse
-A Goolge Chorme extension that opens https://abtestguide.com/calc/ from a google analytics goal conversion overview report.
 
 # How it works
 The extension requires two segments and grabs the goal completions as well as the goal conversion rate of the first two segements and cacluates the impressions. 

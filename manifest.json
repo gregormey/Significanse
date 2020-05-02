@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Significanse Extension",
+  "version": "0.1",
+  "content_scripts": [
+  {
+    "matches": [
+      "https://analytics.google.com/analytics/web/*"
+    ],
+    "js": ["content.js"]
+  }
+  ],
+  "browser_action": {
+  	"default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+}
